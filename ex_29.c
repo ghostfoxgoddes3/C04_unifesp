@@ -4,9 +4,9 @@ int main(){
     int v[6], odd[6], even[6];
     int odd_sum = 0, even_sum = 0, o = 0, e = 0;
 
-    for(int i  0; i<6; ++i){
+    for(int i = 0; i<6; ++i){
         scanf("%d", &v[i]);
-        if(v[i]%2 = 0){
+        if(v[i]%2 == 0){
             even[e] = v[i];
             even_sum += even[e];
             ++e;
