@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int V1[10], V2[10], V3[10];
+    int V1[10], V2[10], V3[20];
 
     for(int i = 0; i<10; ++i){
         scanf("%d", &V1[i]);
@@ -9,7 +9,7 @@ int main(){
     for(int i = 0; i<10; ++i){
         scanf("%d", &V2[i]);
     }
-    for(int i = 0; i<10; ++i){
+    for(int i = 0; i<20; ++i){
         if(i%2 = 0){
             V3[i] = V1[i];
         }
